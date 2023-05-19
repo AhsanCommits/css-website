@@ -12,7 +12,7 @@ const Page = () => {
     <>
       <HeroSection title={`Welcome To Computer 
 Science Society`} imageUrl={"/home.png"} />
-      <hr border="2px" width="700vw" />
+      <hr border="2px" width="100vw" />
 
       <section className={heroStyles.main_section}>
         <div className={styles.container}>
@@ -22,7 +22,7 @@ Science Society`} imageUrl={"/home.png"} />
           </div>
         </div>
       </section>
-      <hr border="2px" width="700vw" />
+      <hr border="2px" width="100vw" />
 
       <section className={styles.eventSection}>
         <div className={styles.container}>
@@ -34,7 +34,7 @@ Science Society`} imageUrl={"/home.png"} />
           </div>
         </div>
       </section>
-      <hr border="2px" width="700vw" />
+      <hr border="2px" width="100vw" />
     </>
   );
 };
